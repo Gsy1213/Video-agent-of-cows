@@ -1,0 +1,32 @@
+import {test,expect} from '@playwright/test';
+
+test('独立问答入口、历史问答、刷新恢复、新建对话和视频证据',async({page,request})=>{
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('/videos');
+ await page.getByRole('link',{name:'智能问答',exact:true}).click();
+ await expect(page).toHaveURL(/\/chat$/);
+ await expect(page.getByRole('heading',{name:'智能问答',exact:true})).toBeVisible();
+ await page.getByLabel('问题',{exact:true}).fill('统计1号牛2023-07-21到2023-07-25每天的采食记录');
+ await page.getByRole('button',{name:'发送问题'}).click();
+ await expect(page.locator('.message.assistant table')).toBeVisible({timeout:30000});
+ await expect(page.locator('.message.assistant')).toContainText('4,806');
+ await page.reload();await expect(page.locator('.message.assistant table')).toBeVisible();
+ await page.getByRole('button',{name:'新建对话',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'从一个问题开始'})).toBeVisible();
+ await expect(page.locator('.message')).toHaveCount(0);
+ const v=(await (await request.post('/api/demo')).json()).data;
+ const a=(await (await request.post(`/api/videos/${v.id}/analyses`,{data:{provider:'mock'}})).json()).data;
+ await expect.poll(async()=>(await (await request.get(`/api/analyses/${a.id}`)).json()).data.analysis.status).toBe('succeeded');
+ await page.getByRole('button',{name:'刷新问答数据'}).click();
+ await expect(page.getByLabel('问答范围').locator(`option[value="${a.id}"]`)).toHaveCount(1);
+ await page.getByLabel('问答范围').selectOption(a.id);
+ await expect(page).toHaveURL(new RegExp(`analysis=${a.id}`));
+ await expect(page.getByLabel('问答目标')).toHaveValue('track_001');
+ await page.getByLabel('问题',{exact:true}).fill('分析采食情况，给我片段');await page.getByRole('button',{name:'发送问题'}).click();
+ await expect(page.locator('.fact').filter({hasText:'采食时长'})).toContainText('30');
+ await page.locator('.evidence-button').first().click();
+ await expect.poll(()=>page.getByLabel('问答视频证据').evaluate(v=>(v as HTMLVideoElement).currentTime)).toBeGreaterThanOrEqual(19.5);
+ await page.getByLabel('问答视频证据').evaluate(v=>(v as HTMLVideoElement).pause());
+ await page.setViewportSize({width:1024,height:900});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
+ expect(errors).toEqual([]);
+});

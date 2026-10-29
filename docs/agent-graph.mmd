@@ -1,0 +1,27 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	load_context(load_context)
+	check_readiness(check_readiness)
+	model(model)
+	tools(tools)
+	assemble_and_validate(assemble_and_validate)
+	save_answer(save_answer)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> load_context;
+	assemble_and_validate -.-> model;
+	assemble_and_validate -.-> save_answer;
+	check_readiness -.-> assemble_and_validate;
+	check_readiness -.-> model;
+	load_context --> check_readiness;
+	model -.-> assemble_and_validate;
+	model -.-> tools;
+	tools --> model;
+	save_answer --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

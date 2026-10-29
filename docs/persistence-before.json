@@ -1,0 +1,262 @@
+{
+  "document_ids": [
+    "0012ad3410ec44ce8590f1d38f344455",
+    "00f2062cce0f40d8bdd035b08c118414",
+    "03a3169b05c4460388d3e1a833ca5ae5",
+    "03ee942f4f23438599d2ca303a083781",
+    "058ca93240f144018dda007767eaf941",
+    "0839d18d17804632901cde049ea47041",
+    "12830409146a40e19d91b95e0288435a",
+    "1979fdca824446ccb0c80b3b482e2290",
+    "1992b1db9b1349f48572448334cc50c3",
+    "1c5135105c0f4051844f9f8bd933b4d4",
+    "1ed5a93de9d042ffa053d7e10f81f7d2",
+    "1f06657c6c7d42729219c72cf9f862a1",
+    "22315039b49e4c81b895abccf447e22b",
+    "2780057fd9914aab9d935b18d6774bd9",
+    "2b790237433041a881c9c19f25b8be6c",
+    "2fddac373e7043819316d6b452e88daa",
+    "2fef35eb29b3460994eb7113e210cd59",
+    "312242806159474f93f744b4d7b2818a",
+    "3574b098caad4fbcb850342eac29dece",
+    "3fd1e96a01ab46749093611d66915d0c",
+    "47d78ccbc2ce44db8be94d0901de6fb2",
+    "4905802bb95f480290c60f217c051189",
+    "4a66ad157c04459f9357369b40a25e82",
+    "4cf7536ce92140f3b16c3acfbed69e0e",
+    "577621f40772499c9d5cb3ba38c21d31",
+    "595620e5d5d5475baefbefa29146367e",
+    "5c4ce40444f44b8d92b1979e13d73315",
+    "5d4fe79f0a714f119807b4c0be86ed27",
+    "611b2e1c44744127bb5d27db09a71f52",
+    "62696f4765f14a44b198ec666ad82252",
+    "661173d544bb43569e448bcdbdffca83",
+    "6757ee425f1f4067874467328072a12a",
+    "6bcb5b7d58b04ecaadb86f92a2dde100",
+    "6c45298cd2974ad89348367fd81459af",
+    "70af4c1403cb49d98ac6461187c8d310",
+    "73412e39574f4e679c438c77535a061d",
+    "7350d37a01e74bc6bbb12b32ed2acac8",
+    "742f89fc61de48d192ba7cb67484c00e",
+    "7b2d519a82a5493f924a9297686c2d22",
+    "7fe9f3c4424049608883a3e13e7ede84",
+    "812b40cea6734b6d8e7636d9327dbb01",
+    "81bebd68926e4600b5cc5862800ecbb4",
+    "820a6d6983d84000836a95ff9602673a",
+    "82345c5f1177408e9c552b28828f6a3f",
+    "859527a658d04e3dab23e80a897bb242",
+    "8616df9f139b4219867255a4ee6a19a5",
+    "8ff963a84ce140fd97342d3ebea865b5",
+    "908fdac93a694ab5bc83086d3dc49571",
+    "98e7040d539649828d62191978d5e23b",
+    "9d669fdd6af449bd877b3de4910e396f",
+    "9f5cfcd527ee4604a87e74d823682a4d",
+    "a3937f60959d4fa58c2058d7b34c0f2a",
+    "aad8d9a6ef6f4e04b81a1e21ee2078c2",
+    "aade044ccd36498ea4fe7da5a763f2ad",
+    "ac00f881782244f3a78306044fca722c",
+    "b0db76fc6f794854b3b4cb0c6dce25e7",
+    "b4885fc2d3f246a1862310443e71e4b2",
+    "b4cff6b6d1044607b2d609faa79566f9",
+    "bc21cf9d6edb429e8b463e344e6f510b",
+    "bcae0fb33242440f9f5b39eb98baf5eb",
+    "bfca91a7e6f847a788d7225bccd25615",
+    "c3d0c2290f53434b9fa828b2975a2f89",
+    "c3f4b6f3a90644f0bb151cc3f8320cf5",
+    "c9d7bd86d9fa460385ae4d0801bbd24b",
+    "cf735c02fbe745428c19b6edf320faf1",
+    "d31f810e6e214eb586e2e86697e9d344",
+    "d39ad42614154b03b5dbf10f89bba7b3",
+    "d6728c54935648f7aae93fa74cf589eb",
+    "d8377201bb0143959854f0d5e1ccbdc1",
+    "d9444918e4494f6c9378ffb0052f49a6",
+    "defad912f328467397bbddafa5866cc6",
+    "e15c4f2a05e440a7ab56effe31d06ad2",
+    "e190d5cf5e75421490d00d00ee6655e4",
+    "e4b65f35e7864280ad9ffa0ff39b957f",
+    "e575369a9e864184b483cc3f99cc7752",
+    "e83d41b010f24c128d03b18c97acf712",
+    "ee2fa36c647644cd8814750f15da5ade",
+    "eea4db7c7f4b4067915214c7e1d0172e",
+    "f085ebced1d04f85a467913fea1abfc6",
+    "f760699ac4db4d5d8bee1ad8f5b8381b",
+    "f79d2be2a3b64eb2a7c0345ced186c99",
+    "f88416700993453bb2a693c241339fa7",
+    "f88794b99d5a46028a71de28035f3432",
+    "fedffc0c24bc456a95229d28e9e3342f"
+  ],
+  "video_id": "93d2b7927d184137b358ab23888e2ee6",
+  "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+  "session_id": "df2234d549d24b0a90af74ba67a66de3",
+  "message_id": "0ecee297cfb0442594776101c12694ce",
+  "facts": [
+    {
+      "ref_id": "e6d95031f105481ebe880d502c050fda",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "behavior_duration_s",
+      "behavior": "standing",
+      "label": "站立时长",
+      "value": 20.0,
+      "unit": "seconds"
+    },
+    {
+      "ref_id": "4b4d551d922847d78305457b68f48735",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "behavior_ratio",
+      "behavior": "standing",
+      "label": "站立占已识别时长",
+      "value": 0.2222222222222222,
+      "unit": "ratio"
+    },
+    {
+      "ref_id": "99819d72373c4f87af6c542259f3116a",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "segment_count",
+      "behavior": "standing",
+      "label": "站立记录片段数",
+      "value": 1.0,
+      "unit": "count"
+    },
+    {
+      "ref_id": "7194ea99ac5c4f439b9f6f211a0165c7",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "behavior_duration_s",
+      "behavior": "feeding",
+      "label": "采食时长",
+      "value": 30.0,
+      "unit": "seconds"
+    },
+    {
+      "ref_id": "a190b1af3aab49ab9ebea28a44925cb2",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "behavior_ratio",
+      "behavior": "feeding",
+      "label": "采食占已识别时长",
+      "value": 0.3333333333333333,
+      "unit": "ratio"
+    },
+    {
+      "ref_id": "e37dd4dfc2a34df8b58c78ab94f06586",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "segment_count",
+      "behavior": "feeding",
+      "label": "采食记录片段数",
+      "value": 1.0,
+      "unit": "count"
+    },
+    {
+      "ref_id": "bcac7641aee54ca1ab24093d7514b05c",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "behavior_duration_s",
+      "behavior": "lying",
+      "label": "卧躺时长",
+      "value": 40.0,
+      "unit": "seconds"
+    },
+    {
+      "ref_id": "e13eb38073cd4da690c6253f56d3b190",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "behavior_ratio",
+      "behavior": "lying",
+      "label": "卧躺占已识别时长",
+      "value": 0.4444444444444444,
+      "unit": "ratio"
+    },
+    {
+      "ref_id": "c00fd97c4b0443ed996681ba07cf680f",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "segment_count",
+      "behavior": "lying",
+      "label": "卧躺记录片段数",
+      "value": 1.0,
+      "unit": "count"
+    },
+    {
+      "ref_id": "cdf4238c79f84d28bcac5a8c362de952",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "classified_duration_s",
+      "behavior": null,
+      "label": "已识别行为时长",
+      "value": 90.0,
+      "unit": "seconds"
+    },
+    {
+      "ref_id": "af399eb7357e4b679aaa2b893bbb35f1",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "unknown_duration_s",
+      "behavior": null,
+      "label": "未知行为时长",
+      "value": 10.0,
+      "unit": "seconds"
+    },
+    {
+      "ref_id": "d83dfd958137452c83279a49ead5f346",
+      "analysis_id": "dc9153fa9b4742d7a2e156e37a82f0cd",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0.0,
+        "end_s": 120.0
+      },
+      "metric": "unobserved_duration_s",
+      "behavior": null,
+      "label": "未观察时长",
+      "value": 20.0,
+      "unit": "seconds"
+    }
+  ]
+}

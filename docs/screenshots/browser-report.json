@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "id": "72dbe90f415c47d48abf762bf4ac2c15",
+    "video_id": "9661222e167f44aab57583beadd14697",
+    "provider": "mock",
+    "status": "succeeded",
+    "source_kind": "mock",
+    "model_version": "mock-fixture-v1",
+    "progress": null,
+    "warnings": [
+      "模拟结果与视频内容无关；不代表真实识别。"
+    ],
+    "error": null,
+    "created_at": "2026-10-29T09:05:46.746351+00:00",
+    "started_at": "2026-10-29T09:05:46.949975+00:00",
+    "finished_at": "2026-10-29T09:05:47.365554+00:00"
+  },
+  "range": {
+    "start_s": 0,
+    "end_s": 120.0
+  },
+  "basis": "classified_duration",
+  "statistics": [
+    {
+      "analysis_id": "72dbe90f415c47d48abf762bf4ac2c15",
+      "track_id": "track_001",
+      "range": {
+        "start_s": 0,
+        "end_s": 120.0
+      },
+      "window_duration_s": 120.0,
+      "observed_duration_s": 100.0,
+      "unknown_duration_s": 10.0,
+      "classified_duration_s": 90.0,
+      "unobserved_duration_s": 20.0,
+      "observation_coverage": 0.8333333333333334,
+      "classification_coverage": 0.9,
+      "behaviors": [
+        {
+          "code": "standing",
+          "label": "站立",
+          "duration_s": 20.0,
+          "ratio": 0.2222222222222222,
+          "segment_count": 1
+        },
+        {
+          "code": "feeding",
+          "label": "采食",
+          "duration_s": 30.0,
+          "ratio": 0.3333333333333333,
+          "segment_count": 1
+        },
+        {
+          "code": "lying",
+          "label": "卧躺",
+          "duration_s": 40.0,
+          "ratio": 0.4444444444444444,
+          "segment_count": 1
+        }
+      ]
+    }
+  ],
+  "modes": {
+    "vision": "mock",
+    "llm": "mock",
+    "retrieval": "lexical"
+  },
+  "answers": [],
+  "limitations": [
+    "模拟结果与视频内容无关；不代表真实识别。",
+    "行为占比以已识别行为时长为分母；短视频不代表全天，不作疾病诊断。"
+  ]
+}

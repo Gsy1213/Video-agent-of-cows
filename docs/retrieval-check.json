@@ -1,0 +1,86 @@
+{
+  "data": {
+    "retrieval_mode": "lexical",
+    "matches": [
+      {
+        "chunk": {
+          "id": "98c539bdfe804e0c8c9462b6737449c5",
+          "document_id": "ac00f881782244f3a78306044fca722c",
+          "version": 1,
+          "title": "历史行为记录：1号牛 2023-07-21",
+          "text": "# 历史行为记录：1号牛 2023-07-21",
+          "page": null,
+          "section": "历史行为记录：1号牛 2023-07-21",
+          "source_url": null,
+          "is_demo": false,
+          "source_status": "active"
+        },
+        "score": 0.50709255283711
+      },
+      {
+        "chunk": {
+          "id": "0ec0c0e03f0a4e6e930fb57e3014d7b8",
+          "document_id": "f760699ac4db4d5d8bee1ad8f5b8381b",
+          "version": 1,
+          "title": "历史行为记录：6号牛 2023-07-21",
+          "text": "# 历史行为记录：6号牛 2023-07-21",
+          "page": null,
+          "section": "历史行为记录：6号牛 2023-07-21",
+          "source_url": null,
+          "is_demo": false,
+          "source_status": "active"
+        },
+        "score": 0.4225771273642583
+      },
+      {
+        "chunk": {
+          "id": "27e17108a96b43d4828614973a965db5",
+          "document_id": "f88794b99d5a46028a71de28035f3432",
+          "version": 1,
+          "title": "历史行为记录：12号牛 2023-07-21",
+          "text": "# 历史行为记录：12号牛 2023-07-21",
+          "page": null,
+          "section": "历史行为记录：12号牛 2023-07-21",
+          "source_url": null,
+          "is_demo": false,
+          "source_status": "active"
+        },
+        "score": 0.4225771273642583
+      },
+      {
+        "chunk": {
+          "id": "2cb55bb2b1134d47870e197d1bd73c36",
+          "document_id": "2fef35eb29b3460994eb7113e210cd59",
+          "version": 1,
+          "title": "历史行为记录：4号牛 2023-07-21",
+          "text": "# 历史行为记录：4号牛 2023-07-21",
+          "page": null,
+          "section": "历史行为记录：4号牛 2023-07-21",
+          "source_url": null,
+          "is_demo": false,
+          "source_status": "active"
+        },
+        "score": 0.4225771273642583
+      },
+      {
+        "chunk": {
+          "id": "375ab810cb234d4da1711f8fb5508209",
+          "document_id": "577621f40772499c9d5cb3ba38c21d31",
+          "version": 1,
+          "title": "历史行为记录：1号牛 2023-07-25",
+          "text": "# 历史行为记录：1号牛 2023-07-25",
+          "page": null,
+          "section": "历史行为记录：1号牛 2023-07-25",
+          "source_url": null,
+          "is_demo": false,
+          "source_status": "active"
+        },
+        "score": 0.4225771273642583
+      }
+    ],
+    "warnings": [
+      "关键词离线检索；分数不是概率。"
+    ]
+  },
+  "request_id": "d4d3c4939ea44058bf03f1bf2e533bc7"
+}

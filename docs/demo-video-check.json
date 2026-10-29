@@ -1,0 +1,14 @@
+{
+  "result": "passed",
+  "page": "http://127.0.0.1:8000/videos/3bb6415290d74440943faed3d7bb5eee/analyses/09cd0ccf16c24a698ce8c1c1a9083fbd",
+  "source": "/data2/geshuyu/5.mp4",
+  "sha256": "fd72eb387d2c9049192d7f30115f1a9f2b1e8fff12dc28e13e5a9413e66f2099",
+  "duration": 32,
+  "width": 1280,
+  "height": 720,
+  "readyState": 4,
+  "currentTime": 1.027414,
+  "decodedFrames": 30,
+  "mediaUrl": "http://127.0.0.1:8000/api/videos/3bb6415290d74440943faed3d7bb5eee/media",
+  "pageErrors": []
+}

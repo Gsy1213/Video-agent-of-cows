@@ -1,0 +1,16 @@
+
+> cow-agent-ui@1.0.0 e2e
+> NO_PROXY=127.0.0.1,localhost no_proxy=127.0.0.1,localhost playwright test
+
+[WebServer] INFO:     Started server process [298894]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8011 (Press CTRL+C to quit)
+
+Running 3 tests using 1 worker
+
+  ✓  1 e2e/questions.spec.ts:3:1 › 独立问答入口、历史问答、刷新恢复、新建对话和视频证据 (5.0s)
+  ✓  2 e2e/workflow.spec.ts:4:1 › 上传 → 独立worker → 统计 → seek → RAG引用 → 导出 → 刷新恢复 (11.3s)
+  ✓  3 e2e/workflow.spec.ts:49:1 › 历史真实库检索、知识更新删除与失败状态 (5.9s)
+
+  3 passed (25.8s)

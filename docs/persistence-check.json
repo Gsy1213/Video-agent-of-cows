@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-29T07:23:25.345998+00:00",
+  "result": "passed",
+  "document_count": 84,
+  "same_document_ids": true,
+  "same_video": true,
+  "analysis_status": "succeeded",
+  "same_message_and_fact_refs": true,
+  "history_HH_MM_window": "passed",
+  "worker_alive": true
+}

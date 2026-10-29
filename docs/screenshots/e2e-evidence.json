@@ -1,0 +1,1004 @@
+{
+  "historyMessage": {
+    "answer_text": "以下为规则演示查询，统计和证据由工具实际读取。以下记录来自五天历史预测库；身份关联与行为标签尚未人工复核。",
+    "facts": [],
+    "video_evidence": [],
+    "knowledge_evidence": [],
+    "limitations": [
+      "短视频或采样记录不能代表全天真实行为，不作疾病诊断。",
+      "本轮未检索到适用知识依据。"
+    ],
+    "execution_trace": [
+      {
+        "tool": "query_history",
+        "status": "succeeded",
+        "duration_ms": 167
+      }
+    ],
+    "modes": {
+      "vision": "historical_model_predictions",
+      "llm": "mock",
+      "retrieval": "lexical"
+    },
+    "history_records": [
+      {
+        "ref_id": "252d57a62b6e41ce9ef067f0f4218828",
+        "cow_id": 1,
+        "date_range": [
+          "2023-07-25",
+          "2023-07-25"
+        ],
+        "daily_window": [
+          "10:00:00",
+          "10:30:00"
+        ],
+        "timezone": "America/Chicago",
+        "behavior": "feeding",
+        "total_events": 10,
+        "truncated": false,
+        "events": [
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297200",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297200,
+            "end_unix": 1690297258,
+            "estimated_seconds": 58,
+            "sample_count": 29,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:00:00-05:00",
+            "end_local": "2023-07-25T10:00:58-05:00",
+            "overlap_start": "2023-07-25T10:00:00-05:00",
+            "overlap_end": "2023-07-25T10:00:58-05:00",
+            "overlap_seconds": 58,
+            "evidence": [
+              {
+                "observation_id": "6de89403e43ed5d41e1174ed",
+                "timestamp_unix": 1690297200,
+                "timestamp_local": "2023-07-25T10:00:00-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999996423721313,
+                "behavior_score": 0.6734319925308228,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3482,
+                  715,
+                  3809,
+                  1190
+                ],
+                "image_url": "/api/history/evidence/36d8a60b3e984b949ec618581307d3d3"
+              },
+              {
+                "observation_id": "21d0c339e438e011af2bf192",
+                "timestamp_unix": 1690297200,
+                "timestamp_local": "2023-07-25T10:00:00-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9973556995391846,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2577,
+                  131,
+                  2887,
+                  321
+                ],
+                "image_url": "/api/history/evidence/cb4a8a8613fa449cad6add85912976cc"
+              },
+              {
+                "observation_id": "af940440154d2b91357dcc3a",
+                "timestamp_unix": 1690297256,
+                "timestamp_local": "2023-07-25T10:00:56-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999998807907104,
+                "behavior_score": 0.6873074173927307,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3486,
+                  714,
+                  3813,
+                  1190
+                ],
+                "image_url": "/api/history/evidence/add715127113432cb920ca69faffcd0e"
+              },
+              {
+                "observation_id": "e75698231e45864d4e80ee54",
+                "timestamp_unix": 1690297256,
+                "timestamp_local": "2023-07-25T10:00:56-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9828512668609619,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2581,
+                  131,
+                  2888,
+                  322
+                ],
+                "image_url": "/api/history/evidence/dbba8a5f727d4e0c98967b6402914000"
+              }
+            ]
+          },
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297260",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297260,
+            "end_unix": 1690297262,
+            "estimated_seconds": 2,
+            "sample_count": 1,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:01:00-05:00",
+            "end_local": "2023-07-25T10:01:02-05:00",
+            "overlap_start": "2023-07-25T10:01:00-05:00",
+            "overlap_end": "2023-07-25T10:01:02-05:00",
+            "overlap_seconds": 2,
+            "evidence": [
+              {
+                "observation_id": "0a68ffb147ad3973c24660ca",
+                "timestamp_unix": 1690297260,
+                "timestamp_local": "2023-07-25T10:01:00-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.7405659556388855,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3475,
+                  717,
+                  3809,
+                  1189
+                ],
+                "image_url": "/api/history/evidence/6828147da70e4b6f89605c511aec716e"
+              },
+              {
+                "observation_id": "7f54bcac9dda83f4ce77fe1e",
+                "timestamp_unix": 1690297260,
+                "timestamp_local": "2023-07-25T10:01:00-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9556360840797424,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2581,
+                  131,
+                  2886,
+                  320
+                ],
+                "image_url": "/api/history/evidence/2a0e685c9627417cae9aa48dfe045775"
+              }
+            ]
+          },
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297264",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297264,
+            "end_unix": 1690297272,
+            "estimated_seconds": 8,
+            "sample_count": 4,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:01:04-05:00",
+            "end_local": "2023-07-25T10:01:12-05:00",
+            "overlap_start": "2023-07-25T10:01:04-05:00",
+            "overlap_end": "2023-07-25T10:01:12-05:00",
+            "overlap_seconds": 8,
+            "evidence": [
+              {
+                "observation_id": "ee7379631a7f410dad7cb4c7",
+                "timestamp_unix": 1690297264,
+                "timestamp_local": "2023-07-25T10:01:04-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999998807907104,
+                "behavior_score": 0.6319855451583862,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3478,
+                  713,
+                  3812,
+                  1190
+                ],
+                "image_url": "/api/history/evidence/5f97094660d5430ebd467092df79e127"
+              },
+              {
+                "observation_id": "2db3a96073b6ecf8f53bbdf9",
+                "timestamp_unix": 1690297264,
+                "timestamp_local": "2023-07-25T10:01:04-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9778043627738953,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2579,
+                  132,
+                  2884,
+                  318
+                ],
+                "image_url": "/api/history/evidence/ea4318e1e7b54cb0850fa232fa8bc9cc"
+              },
+              {
+                "observation_id": "9ad2ae7ffcbf2a5ea4c180a3",
+                "timestamp_unix": 1690297270,
+                "timestamp_local": "2023-07-25T10:01:10-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999997615814209,
+                "behavior_score": 0.7425670027732849,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3502,
+                  712,
+                  3814,
+                  1193
+                ],
+                "image_url": "/api/history/evidence/1fb9cb2786704bee9e7826d1ed32d8ac"
+              },
+              {
+                "observation_id": "7b5ab1f4d411d09d219e6f67",
+                "timestamp_unix": 1690297270,
+                "timestamp_local": "2023-07-25T10:01:10-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9895808696746826,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2582,
+                  131,
+                  2886,
+                  319
+                ],
+                "image_url": "/api/history/evidence/455e4bd2d86248efbeff60f3ebae4bcc"
+              }
+            ]
+          },
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297274",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297274,
+            "end_unix": 1690297282,
+            "estimated_seconds": 8,
+            "sample_count": 4,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:01:14-05:00",
+            "end_local": "2023-07-25T10:01:22-05:00",
+            "overlap_start": "2023-07-25T10:01:14-05:00",
+            "overlap_end": "2023-07-25T10:01:22-05:00",
+            "overlap_seconds": 8,
+            "evidence": [
+              {
+                "observation_id": "3312e8130b0e31dcd2c59749",
+                "timestamp_unix": 1690297274,
+                "timestamp_local": "2023-07-25T10:01:14-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999997615814209,
+                "behavior_score": 0.712290346622467,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3501,
+                  714,
+                  3811,
+                  1190
+                ],
+                "image_url": "/api/history/evidence/fdd35a19c3d14fc4931cb7e1c0414385"
+              },
+              {
+                "observation_id": "c469265bb4356d8d01383c39",
+                "timestamp_unix": 1690297274,
+                "timestamp_local": "2023-07-25T10:01:14-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9934262037277222,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2583,
+                  131,
+                  2883,
+                  323
+                ],
+                "image_url": "/api/history/evidence/9c43ce453e874ff78bf494879ff580de"
+              },
+              {
+                "observation_id": "e17a79e6b97265569dff8455",
+                "timestamp_unix": 1690297280,
+                "timestamp_local": "2023-07-25T10:01:20-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999998807907104,
+                "behavior_score": 0.6926424503326416,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3494,
+                  713,
+                  3810,
+                  1190
+                ],
+                "image_url": "/api/history/evidence/ca6f441d38a745aba2b69c9564932c9c"
+              },
+              {
+                "observation_id": "24542c6633005459575ce9f1",
+                "timestamp_unix": 1690297280,
+                "timestamp_local": "2023-07-25T10:01:20-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9930219054222107,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2587,
+                  133,
+                  2884,
+                  321
+                ],
+                "image_url": "/api/history/evidence/82407db8ce934c56ad5dabf4aa64bcea"
+              }
+            ]
+          },
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297286",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297286,
+            "end_unix": 1690297304,
+            "estimated_seconds": 18,
+            "sample_count": 9,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:01:26-05:00",
+            "end_local": "2023-07-25T10:01:44-05:00",
+            "overlap_start": "2023-07-25T10:01:26-05:00",
+            "overlap_end": "2023-07-25T10:01:44-05:00",
+            "overlap_seconds": 18,
+            "evidence": [
+              {
+                "observation_id": "05394a459c2bde48c128cf22",
+                "timestamp_unix": 1690297286,
+                "timestamp_local": "2023-07-25T10:01:26-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999998807907104,
+                "behavior_score": 0.6359336972236633,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3497,
+                  716,
+                  3810,
+                  1191
+                ],
+                "image_url": "/api/history/evidence/49f5885b206144329afc4fe1e09dcdae"
+              },
+              {
+                "observation_id": "c48dcf9f05b46f773a3278ee",
+                "timestamp_unix": 1690297286,
+                "timestamp_local": "2023-07-25T10:01:26-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9891019463539124,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2612,
+                  133,
+                  2883,
+                  325
+                ],
+                "image_url": "/api/history/evidence/17a325002f5d4355a601f75f0afeb3c4"
+              },
+              {
+                "observation_id": "3015a79e138924c44f3c8f21",
+                "timestamp_unix": 1690297302,
+                "timestamp_local": "2023-07-25T10:01:42-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999938011169434,
+                "behavior_score": 0.7251441478729248,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3493,
+                  718,
+                  3811,
+                  1196
+                ],
+                "image_url": "/api/history/evidence/b317b5d107fc4cc7bd9545f523573c37"
+              },
+              {
+                "observation_id": "da258b9cf6aa34f3dfa991df",
+                "timestamp_unix": 1690297302,
+                "timestamp_local": "2023-07-25T10:01:42-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9970850348472595,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2571,
+                  132,
+                  2878,
+                  323
+                ],
+                "image_url": "/api/history/evidence/731cad2ceed7443a9bf9b8017bd23d09"
+              }
+            ]
+          },
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297306",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297306,
+            "end_unix": 1690297316,
+            "estimated_seconds": 10,
+            "sample_count": 5,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:01:46-05:00",
+            "end_local": "2023-07-25T10:01:56-05:00",
+            "overlap_start": "2023-07-25T10:01:46-05:00",
+            "overlap_end": "2023-07-25T10:01:56-05:00",
+            "overlap_seconds": 10,
+            "evidence": [
+              {
+                "observation_id": "597855aa43193939072d1c04",
+                "timestamp_unix": 1690297306,
+                "timestamp_local": "2023-07-25T10:01:46-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999996423721313,
+                "behavior_score": 0.7858813405036926,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3503,
+                  716,
+                  3811,
+                  1189
+                ],
+                "image_url": "/api/history/evidence/f59edd5a628f41238daa2d18b8ce410a"
+              },
+              {
+                "observation_id": "8232a1ca9f7218fc9ee14b4c",
+                "timestamp_unix": 1690297306,
+                "timestamp_local": "2023-07-25T10:01:46-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9954273700714111,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2568,
+                  130,
+                  2880,
+                  323
+                ],
+                "image_url": "/api/history/evidence/4f953c756d9844709d95387540b69a3b"
+              },
+              {
+                "observation_id": "a5c16a1e90a628447364cadb",
+                "timestamp_unix": 1690297314,
+                "timestamp_local": "2023-07-25T10:01:54-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999998807907104,
+                "behavior_score": 0.6552404165267944,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3497,
+                  715,
+                  3818,
+                  1192
+                ],
+                "image_url": "/api/history/evidence/c077b77cc9674641ac38f5904fb32eec"
+              },
+              {
+                "observation_id": "e2faf8e4866b56aae4321ed4",
+                "timestamp_unix": 1690297314,
+                "timestamp_local": "2023-07-25T10:01:54-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9948042035102844,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2573,
+                  133,
+                  2888,
+                  322
+                ],
+                "image_url": "/api/history/evidence/b9c1a2f4a13b417fbfc06ecd03107354"
+              }
+            ]
+          },
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297318",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297318,
+            "end_unix": 1690297328,
+            "estimated_seconds": 10,
+            "sample_count": 5,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:01:58-05:00",
+            "end_local": "2023-07-25T10:02:08-05:00",
+            "overlap_start": "2023-07-25T10:01:58-05:00",
+            "overlap_end": "2023-07-25T10:02:08-05:00",
+            "overlap_seconds": 10,
+            "evidence": [
+              {
+                "observation_id": "1d8a9d6f019aa294ef97fc36",
+                "timestamp_unix": 1690297318,
+                "timestamp_local": "2023-07-25T10:01:58-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999996423721313,
+                "behavior_score": 0.5592511892318726,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3506,
+                  712,
+                  3810,
+                  1194
+                ],
+                "image_url": "/api/history/evidence/e9ce181bc7574ade8673c08b3c0ea5fc"
+              },
+              {
+                "observation_id": "bc63be2810ab0d2d3c3d7190",
+                "timestamp_unix": 1690297318,
+                "timestamp_local": "2023-07-25T10:01:58-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_up",
+                "identity_score": 1,
+                "behavior_score": 0.7941349744796753,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2581,
+                  135,
+                  2890,
+                  320
+                ],
+                "image_url": "/api/history/evidence/85703bdece4d4a91bf82060a9de2a2f1"
+              },
+              {
+                "observation_id": "95dfeea24757e021d51d3917",
+                "timestamp_unix": 1690297326,
+                "timestamp_local": "2023-07-25T10:02:06-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.4933575689792633,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3506,
+                  712,
+                  3819,
+                  1189
+                ],
+                "image_url": "/api/history/evidence/263581ea30834493bfe4f9e648bba177"
+              },
+              {
+                "observation_id": "0050343771af7aed06572471",
+                "timestamp_unix": 1690297326,
+                "timestamp_local": "2023-07-25T10:02:06-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_up",
+                "identity_score": 1,
+                "behavior_score": 0.6074455380439758,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2592,
+                  134,
+                  2888,
+                  320
+                ],
+                "image_url": "/api/history/evidence/103308bda34644a98c0945b1aaa837a1"
+              }
+            ]
+          },
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297330",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297330,
+            "end_unix": 1690297332,
+            "estimated_seconds": 2,
+            "sample_count": 1,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:02:10-05:00",
+            "end_local": "2023-07-25T10:02:12-05:00",
+            "overlap_start": "2023-07-25T10:02:10-05:00",
+            "overlap_end": "2023-07-25T10:02:12-05:00",
+            "overlap_seconds": 2,
+            "evidence": [
+              {
+                "observation_id": "99850c11213977672ef2056e",
+                "timestamp_unix": 1690297330,
+                "timestamp_local": "2023-07-25T10:02:10-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_up",
+                "identity_score": 1,
+                "behavior_score": 0.5419450402259827,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3507,
+                  712,
+                  3815,
+                  1189
+                ],
+                "image_url": "/api/history/evidence/5c7c670da683404582ff4ac7cd06c09d"
+              },
+              {
+                "observation_id": "978b32e7566c15063f85773a",
+                "timestamp_unix": 1690297330,
+                "timestamp_local": "2023-07-25T10:02:10-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.5382307171821594,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2589,
+                  134,
+                  2889,
+                  320
+                ],
+                "image_url": "/api/history/evidence/9c7158fad21c4e4fba11331cddad5e5e"
+              }
+            ]
+          },
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297340",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297340,
+            "end_unix": 1690297348,
+            "estimated_seconds": 8,
+            "sample_count": 4,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:02:20-05:00",
+            "end_local": "2023-07-25T10:02:28-05:00",
+            "overlap_start": "2023-07-25T10:02:20-05:00",
+            "overlap_end": "2023-07-25T10:02:28-05:00",
+            "overlap_seconds": 8,
+            "evidence": [
+              {
+                "observation_id": "4ad3e82100b39a52e56a844d",
+                "timestamp_unix": 1690297340,
+                "timestamp_local": "2023-07-25T10:02:20-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999995231628418,
+                "behavior_score": 0.617024838924408,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3489,
+                  712,
+                  3808,
+                  1195
+                ],
+                "image_url": "/api/history/evidence/56d7965e3e314d488ffda0c37c39bcff"
+              },
+              {
+                "observation_id": "335a937c8e93ee36fccb3730",
+                "timestamp_unix": 1690297340,
+                "timestamp_local": "2023-07-25T10:02:20-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9958199262619019,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2572,
+                  132,
+                  2883,
+                  325
+                ],
+                "image_url": "/api/history/evidence/f3d7e97239164f83935a2eb18e6494d0"
+              },
+              {
+                "observation_id": "20cc4e4e3dd51972c2fb79e1",
+                "timestamp_unix": 1690297346,
+                "timestamp_local": "2023-07-25T10:02:26-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999994039535522,
+                "behavior_score": 0.5541978478431702,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3505,
+                  712,
+                  3820,
+                  1194
+                ],
+                "image_url": "/api/history/evidence/00a67a4aadb4408f89565ed18385e641"
+              },
+              {
+                "observation_id": "cfde0c8f808c6368b13c7793",
+                "timestamp_unix": 1690297346,
+                "timestamp_local": "2023-07-25T10:02:26-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9959884285926819,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2570,
+                  133,
+                  2883,
+                  326
+                ],
+                "image_url": "/api/history/evidence/10d19124b8f8434294e64931f26bb9d1"
+              }
+            ]
+          },
+          {
+            "event_id": "2023-07-25_C01_feeding_feeding_1690297350",
+            "local_date": "2023-07-25",
+            "cow_id": 1,
+            "event_type": "feeding",
+            "behavior": "feeding",
+            "start_unix": 1690297350,
+            "end_unix": 1690297374,
+            "estimated_seconds": 24,
+            "sample_count": 12,
+            "label_source": "model_prediction",
+            "reviewed": 0,
+            "start_local": "2023-07-25T10:02:30-05:00",
+            "end_local": "2023-07-25T10:02:54-05:00",
+            "overlap_start": "2023-07-25T10:02:30-05:00",
+            "overlap_end": "2023-07-25T10:02:54-05:00",
+            "overlap_seconds": 24,
+            "evidence": [
+              {
+                "observation_id": "66c20b1b1f8950cb77afe656",
+                "timestamp_unix": 1690297350,
+                "timestamp_local": "2023-07-25T10:02:30-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999988079071045,
+                "behavior_score": 0.6598315834999084,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3512,
+                  714,
+                  3818,
+                  1194
+                ],
+                "image_url": "/api/history/evidence/615a8f68c5d3435394c8a98b16bf387d"
+              },
+              {
+                "observation_id": "8aeca65475e88ccab235745b",
+                "timestamp_unix": 1690297350,
+                "timestamp_local": "2023-07-25T10:02:30-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9964513778686523,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2570,
+                  132,
+                  2883,
+                  326
+                ],
+                "image_url": "/api/history/evidence/cfed47023cec464f97a603a99d9e483f"
+              },
+              {
+                "observation_id": "eb5944cea410c0b24c73551f",
+                "timestamp_unix": 1690297372,
+                "timestamp_local": "2023-07-25T10:02:52-05:00",
+                "camera_id": 1,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 0.9999996423721313,
+                "behavior_score": 0.679857075214386,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  3510,
+                  715,
+                  3816,
+                  1192
+                ],
+                "image_url": "/api/history/evidence/60c21177faaa47888d0a85553e5a39e3"
+              },
+              {
+                "observation_id": "2ad65805cadfaed3c3a2f134",
+                "timestamp_unix": 1690297372,
+                "timestamp_local": "2023-07-25T10:02:52-05:00",
+                "camera_id": 2,
+                "cow_id": "1",
+                "behavior": "feeding_head_down",
+                "identity_score": 1,
+                "behavior_score": 0.9945945143699646,
+                "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+                "label_source": "model_prediction",
+                "reviewed": 0,
+                "image_exists": true,
+                "bbox": [
+                  2569,
+                  133,
+                  2884,
+                  324
+                ],
+                "image_url": "/api/history/evidence/8eda0b4e947e44b89aa9307f65aa61b4"
+              }
+            ]
+          }
+        ],
+        "label_source": "model_prediction",
+        "reviewed": false,
+        "notice": "来源：未人工复核的模型预测；两秒采样间隔估计，按牛只和时间槽去重。缺失、身份不明或冲突时段保留为未知；跨日身份关联未经人工确认；不作疾病诊断。"
+      }
+    ]
+  },
+  "failAnalysis": "02287266257d41799e5fee4d64ebb49f"
+}

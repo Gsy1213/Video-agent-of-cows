@@ -1,0 +1,510 @@
+{
+  "cow_id": 1,
+  "timezone": "America/Chicago",
+  "daily_window": [
+    "00:00:00",
+    "24:00:00"
+  ],
+  "daily_summaries": [
+    {
+      "local_date": "2023-07-21",
+      "window_start": "2023-07-21T00:00:00-05:00",
+      "window_end": "2023-07-22T00:00:00-05:00",
+      "expected_seconds": 86400,
+      "processed_seconds": 86400,
+      "observable_seconds": 26898,
+      "observable_feeding_seconds": 4806,
+      "observable_feeding_minutes": 80.1,
+      "observable_non_feeding_seconds": 22092,
+      "unknown_seconds": 59502,
+      "pending_seconds": 0,
+      "feeding_episode_count": 383,
+      "identity_behavior_coverage": 0.3113194444444444,
+      "image_slot_coverage": 0.4791666666666667,
+      "processing_coverage": 1.0,
+      "feeding_fraction_of_observable": 0.1786749944233772,
+      "sufficient": false,
+      "data_limitations": [
+        "身份与行为可观测覆盖率低于配置阈值",
+        "存在缺失或不可读图像；这些时段没有补齐"
+      ],
+      "example_events": [
+        {
+          "event_id": "2023-07-21_C01_feeding_feeding_1689961344",
+          "local_date": "2023-07-21",
+          "cow_id": 1,
+          "event_type": "feeding",
+          "behavior": "feeding",
+          "start_unix": 1689961344,
+          "end_unix": 1689961350,
+          "estimated_seconds": 6,
+          "sample_count": 3,
+          "label_source": "model_prediction",
+          "reviewed": 0,
+          "start_local": "2023-07-21T12:42:24-05:00",
+          "end_local": "2023-07-21T12:42:30-05:00",
+          "overlap_start": "2023-07-21T12:42:24-05:00",
+          "overlap_end": "2023-07-21T12:42:30-05:00",
+          "overlap_seconds": 6,
+          "evidence": [
+            {
+              "observation_id": "c73825b6c0b26da4e9d7f25f",
+              "timestamp_unix": 1689961344,
+              "timestamp_local": "2023-07-21T12:42:24-05:00",
+              "camera_id": 1,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 0.9756217002868652,
+              "behavior_score": 0.8864097595214844,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                2930,
+                621,
+                3177,
+                901
+              ],
+              "image_url": "/api/history/evidence/397ab3f9cfb4464f880caa93a83de374"
+            },
+            {
+              "observation_id": "0b6a703e8f34563c8dd57917",
+              "timestamp_unix": 1689961346,
+              "timestamp_local": "2023-07-21T12:42:26-05:00",
+              "camera_id": 1,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 0.8668268918991089,
+              "behavior_score": 0.8783629536628723,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                2919,
+                622,
+                3177,
+                812
+              ],
+              "image_url": "/api/history/evidence/a3d51d0870c444629bd9a937db2c5649"
+            },
+            {
+              "observation_id": "999a5711c909351a944e9961",
+              "timestamp_unix": 1689961348,
+              "timestamp_local": "2023-07-21T12:42:28-05:00",
+              "camera_id": 1,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 0.9703590273857117,
+              "behavior_score": 0.7045477032661438,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                2913,
+                623,
+                3167,
+                978
+              ],
+              "image_url": "/api/history/evidence/2cb470bdd2a34e608b75f44c7b08727f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "local_date": "2023-07-22",
+      "window_start": "2023-07-22T00:00:00-05:00",
+      "window_end": "2023-07-23T00:00:00-05:00",
+      "expected_seconds": 86400,
+      "processed_seconds": 86400,
+      "observable_seconds": 48358,
+      "observable_feeding_seconds": 6540,
+      "observable_feeding_minutes": 109.0,
+      "observable_non_feeding_seconds": 41818,
+      "unknown_seconds": 38042,
+      "pending_seconds": 0,
+      "feeding_episode_count": 637,
+      "identity_behavior_coverage": 0.559699074074074,
+      "image_slot_coverage": 0.9978626543209876,
+      "processing_coverage": 1.0,
+      "feeding_fraction_of_observable": 0.13524132511683692,
+      "sufficient": false,
+      "data_limitations": [
+        "身份与行为可观测覆盖率低于配置阈值",
+        "存在缺失或不可读图像；这些时段没有补齐"
+      ],
+      "example_events": [
+        {
+          "event_id": "2023-07-22_C01_feeding_feeding_1690002370",
+          "local_date": "2023-07-22",
+          "cow_id": 1,
+          "event_type": "feeding",
+          "behavior": "feeding",
+          "start_unix": 1690002370,
+          "end_unix": 1690002372,
+          "estimated_seconds": 2,
+          "sample_count": 1,
+          "label_source": "model_prediction",
+          "reviewed": 0,
+          "start_local": "2023-07-22T00:06:10-05:00",
+          "end_local": "2023-07-22T00:06:12-05:00",
+          "overlap_start": "2023-07-22T00:06:10-05:00",
+          "overlap_end": "2023-07-22T00:06:12-05:00",
+          "overlap_seconds": 2,
+          "evidence": [
+            {
+              "observation_id": "a87e8642d7ccbdf455be1d1f",
+              "timestamp_unix": 1690002370,
+              "timestamp_local": "2023-07-22T00:06:10-05:00",
+              "camera_id": 1,
+              "cow_id": "1",
+              "behavior": "feeding_head_up",
+              "identity_score": 0.9700738787651062,
+              "behavior_score": 0.9787311553955078,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                2819,
+                590,
+                3072,
+                905
+              ],
+              "image_url": "/api/history/evidence/067bd6cc8f434e40807d81a4ab09b480"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "local_date": "2023-07-23",
+      "window_start": "2023-07-23T00:00:00-05:00",
+      "window_end": "2023-07-24T00:00:00-05:00",
+      "expected_seconds": 86400,
+      "processed_seconds": 86400,
+      "observable_seconds": 47570,
+      "observable_feeding_seconds": 7486,
+      "observable_feeding_minutes": 124.76666666666667,
+      "observable_non_feeding_seconds": 40084,
+      "unknown_seconds": 38830,
+      "pending_seconds": 0,
+      "feeding_episode_count": 587,
+      "identity_behavior_coverage": 0.5505787037037037,
+      "image_slot_coverage": 1.0,
+      "processing_coverage": 1.0,
+      "feeding_fraction_of_observable": 0.15736808913180575,
+      "sufficient": false,
+      "data_limitations": [
+        "身份与行为可观测覆盖率低于配置阈值"
+      ],
+      "example_events": [
+        {
+          "event_id": "2023-07-23_C01_feeding_feeding_1690091670",
+          "local_date": "2023-07-23",
+          "cow_id": 1,
+          "event_type": "feeding",
+          "behavior": "feeding",
+          "start_unix": 1690091670,
+          "end_unix": 1690091672,
+          "estimated_seconds": 2,
+          "sample_count": 1,
+          "label_source": "model_prediction",
+          "reviewed": 0,
+          "start_local": "2023-07-23T00:54:30-05:00",
+          "end_local": "2023-07-23T00:54:32-05:00",
+          "overlap_start": "2023-07-23T00:54:30-05:00",
+          "overlap_end": "2023-07-23T00:54:32-05:00",
+          "overlap_seconds": 2,
+          "evidence": [
+            {
+              "observation_id": "c8ced11fc1987bd9524ac20d",
+              "timestamp_unix": 1690091670,
+              "timestamp_local": "2023-07-23T00:54:30-05:00",
+              "camera_id": 1,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 0.9902980923652649,
+              "behavior_score": 0.9463984370231628,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                1889,
+                304,
+                2206,
+                537
+              ],
+              "image_url": "/api/history/evidence/4060926de12d47bcb59ef6e396d4ca61"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "local_date": "2023-07-24",
+      "window_start": "2023-07-24T00:00:00-05:00",
+      "window_end": "2023-07-25T00:00:00-05:00",
+      "expected_seconds": 86400,
+      "processed_seconds": 86400,
+      "observable_seconds": 44044,
+      "observable_feeding_seconds": 6594,
+      "observable_feeding_minutes": 109.9,
+      "observable_non_feeding_seconds": 37450,
+      "unknown_seconds": 42356,
+      "pending_seconds": 0,
+      "feeding_episode_count": 614,
+      "identity_behavior_coverage": 0.5097685185185186,
+      "image_slot_coverage": 0.9987654320987654,
+      "processing_coverage": 1.0,
+      "feeding_fraction_of_observable": 0.14971392244119516,
+      "sufficient": false,
+      "data_limitations": [
+        "身份与行为可观测覆盖率低于配置阈值",
+        "存在缺失或不可读图像；这些时段没有补齐"
+      ],
+      "example_events": [
+        {
+          "event_id": "2023-07-24_C01_feeding_feeding_1690175420",
+          "local_date": "2023-07-24",
+          "cow_id": 1,
+          "event_type": "feeding",
+          "behavior": "feeding",
+          "start_unix": 1690175420,
+          "end_unix": 1690175426,
+          "estimated_seconds": 6,
+          "sample_count": 3,
+          "label_source": "model_prediction",
+          "reviewed": 0,
+          "start_local": "2023-07-24T00:10:20-05:00",
+          "end_local": "2023-07-24T00:10:26-05:00",
+          "overlap_start": "2023-07-24T00:10:20-05:00",
+          "overlap_end": "2023-07-24T00:10:26-05:00",
+          "overlap_seconds": 6,
+          "evidence": [
+            {
+              "observation_id": "455bc93518fdd838602fbfdb",
+              "timestamp_unix": 1690175420,
+              "timestamp_local": "2023-07-24T00:10:20-05:00",
+              "camera_id": 2,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 0.9968826770782471,
+              "behavior_score": 0.9671856164932251,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                2436,
+                133,
+                2762,
+                293
+              ],
+              "image_url": "/api/history/evidence/62def329f7794de1b1177b889d8ecef9"
+            },
+            {
+              "observation_id": "7a6e007f898df363739be3a4",
+              "timestamp_unix": 1690175420,
+              "timestamp_local": "2023-07-24T00:10:20-05:00",
+              "camera_id": 3,
+              "cow_id": "1",
+              "behavior": "standing",
+              "identity_score": 0.999395489692688,
+              "behavior_score": 0.6299808025360107,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                451,
+                377,
+                881,
+                724
+              ],
+              "image_url": "/api/history/evidence/9a32b541210d4545ace03adcbbfe688e"
+            },
+            {
+              "observation_id": "839eb2e477d32c09291ddfe6",
+              "timestamp_unix": 1690175422,
+              "timestamp_local": "2023-07-24T00:10:22-05:00",
+              "camera_id": 2,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 0.9984766840934753,
+              "behavior_score": 0.9795135855674744,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                2436,
+                134,
+                2752,
+                290
+              ],
+              "image_url": "/api/history/evidence/8d571dcc12f14167a5f61adc8bf4a8ad"
+            },
+            {
+              "observation_id": "d24b4126e52106cffed1334a",
+              "timestamp_unix": 1690175424,
+              "timestamp_local": "2023-07-24T00:10:24-05:00",
+              "camera_id": 2,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 0.9980613589286804,
+              "behavior_score": 0.9944762587547302,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                2449,
+                134,
+                2745,
+                291
+              ],
+              "image_url": "/api/history/evidence/5c339a342cb94e9887320dcfd7218a81"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "local_date": "2023-07-25",
+      "window_start": "2023-07-25T00:00:00-05:00",
+      "window_end": "2023-07-26T00:00:00-05:00",
+      "expected_seconds": 86400,
+      "processed_seconds": 86400,
+      "observable_seconds": 53336,
+      "observable_feeding_seconds": 7004,
+      "observable_feeding_minutes": 116.73333333333333,
+      "observable_non_feeding_seconds": 46332,
+      "unknown_seconds": 33064,
+      "pending_seconds": 0,
+      "feeding_episode_count": 508,
+      "identity_behavior_coverage": 0.6173148148148148,
+      "image_slot_coverage": 0.9996450617283951,
+      "processing_coverage": 1.0,
+      "feeding_fraction_of_observable": 0.13131843407829608,
+      "sufficient": false,
+      "data_limitations": [
+        "身份与行为可观测覆盖率低于配置阈值",
+        "存在缺失或不可读图像；这些时段没有补齐"
+      ],
+      "example_events": [
+        {
+          "event_id": "2023-07-25_C01_feeding_feeding_1690271838",
+          "local_date": "2023-07-25",
+          "cow_id": 1,
+          "event_type": "feeding",
+          "behavior": "feeding",
+          "start_unix": 1690271838,
+          "end_unix": 1690271846,
+          "estimated_seconds": 8,
+          "sample_count": 4,
+          "label_source": "model_prediction",
+          "reviewed": 0,
+          "start_local": "2023-07-25T02:57:18-05:00",
+          "end_local": "2023-07-25T02:57:26-05:00",
+          "overlap_start": "2023-07-25T02:57:18-05:00",
+          "overlap_end": "2023-07-25T02:57:26-05:00",
+          "overlap_seconds": 8,
+          "evidence": [
+            {
+              "observation_id": "0a194af79f70348a099f05f3",
+              "timestamp_unix": 1690271838,
+              "timestamp_local": "2023-07-25T02:57:18-05:00",
+              "camera_id": 1,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 1.0,
+              "behavior_score": 0.9961839318275452,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                3661,
+                821,
+                4157,
+                1266
+              ],
+              "image_url": "/api/history/evidence/1e52dec339d34fa48845f127517a2f9e"
+            },
+            {
+              "observation_id": "45fef509e4a5495824e8c591",
+              "timestamp_unix": 1690271838,
+              "timestamp_local": "2023-07-25T02:57:18-05:00",
+              "camera_id": 2,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 1.0,
+              "behavior_score": 0.99427729845047,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                2711,
+                130,
+                2945,
+                314
+              ],
+              "image_url": "/api/history/evidence/59769318b3aa4a24b70e6db56cf3eacc"
+            },
+            {
+              "observation_id": "ae6fb8241f99e2afc3771b2b",
+              "timestamp_unix": 1690271844,
+              "timestamp_local": "2023-07-25T02:57:24-05:00",
+              "camera_id": 1,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 1.0,
+              "behavior_score": 0.997077465057373,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                3684,
+                818,
+                4156,
+                1265
+              ],
+              "image_url": "/api/history/evidence/7807616900724095a4101e4963e3d8fb"
+            },
+            {
+              "observation_id": "f8a5e051ecd8a3d273d74e22",
+              "timestamp_unix": 1690271844,
+              "timestamp_local": "2023-07-25T02:57:24-05:00",
+              "camera_id": 2,
+              "cow_id": "1",
+              "behavior": "feeding_head_down",
+              "identity_score": 1.0,
+              "behavior_score": 0.997536301612854,
+              "model_version": "cc3cc1f6a722ede21f1f021c2de7e5d32a3fbba4671a87a5f548964441427c5d",
+              "label_source": "model_prediction",
+              "reviewed": 0,
+              "image_exists": true,
+              "bbox": [
+                2712,
+                129,
+                2944,
+                317
+              ],
+              "image_url": "/api/history/evidence/93c74e2fa1c246d7ae096f4bee5c67e3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "label_source": "model_prediction",
+  "reviewed": false,
+  "notice": "来源：未人工复核的模型预测；两秒采样间隔估计，按牛只和时间槽去重。缺失、身份不明或冲突时段保留为未知；跨日身份关联未经人工确认；不作疾病诊断。"
+}
